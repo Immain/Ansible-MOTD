@@ -97,15 +97,16 @@ echo "
 ================================================================
 "
 ```
+To create your own ASCII MOTD Name, visit https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
 ### Step 6:
 Change directories into the **tasks** directory
 ```
-cd /Path/To/File/roles/motd/tasks
+cd /Path/To/File/roles/MOTD/tasks
 ```
 Within the **Main.yml** file, paste the following content
 ```
 ---
-# tasks file for /home/kingpanda/Documents/Ansible/MOTD/roles/motd
+# tasks file for /Path/To/File/MOTD/roles/motd
 - name: copy motd file
   template:
      src: templates/96-access-warning.j2
@@ -117,10 +118,17 @@ Within the **Main.yml** file, paste the following content
 - name: Set Executable to 96-access-warning
   file: dest=/etc/update-motd.d/96-access-warning mode=a+x
 ```
+### Step 7:
+Change directories back to the root of the folder
+```
+cd /Path/To/File/MOTD
+```
+Run the playbook using
+```
+sudo ansible-playbook motd.yml
+```
+If successful, you should be able to log out and log back in to see your new MOTD message!
 
-
-
-To create your own ASCII MOTD Name, visit https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
 
 With the Ansible MOTD Script, you can streamline server administration, improve communication with users, and provide essential information in a concise and visually appealing manner. Enhance your server's welcome message and make your users feel more informed and engaged upon login.
 
