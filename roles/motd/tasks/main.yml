@@ -1,0 +1,12 @@
+---
+# tasks file for /home/kingpanda/Documents/Ansible/MOTD/roles/motd
+- name: copy motd file
+  template:
+     src: templates/96-access-warning.j2
+     dest: /etc/update-motd.d/96-access-warning
+     owner: root
+     group: root
+     mode: 0444
+
+- name: Set Executable to 96-access-warning
+  file: dest=/etc/update-motd.d/96-access-warning mode=a+x
