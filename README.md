@@ -37,11 +37,23 @@ Change directories into your MOTD folder
 cd /Path/To/File/Ansible/MOTD
 ```
 ### Step 2:
+Create a yaml file called motd.yml
+```
+sudo nano motd.yml
+```
+Within the yaml file, paste the following content:
+```
+- hosts: localhost
+  gather_facts: yes
+  roles:
+  - motd
+```
+### Step 3:
 Using the command below, we will setup our roles folder needed for the MOTD:
 ```
 sudo ansible-galaxy init /Path/To/File/roles/motd
 ```
-### Step 3:
+### Step 4:
 Change directories into the roles folder you just created:
 ```
 cd /Path/To/File/roles/motd
@@ -50,7 +62,7 @@ in the MOTD directory, create a new directory called templates
 ```
 sudo mkdir templates
 ```
-### Step 4:
+### Step 5:
 Within the templates folder, create a jinja file called 96-access-warning.j2
 ```
 sudo nano 96-access-warning.j2
@@ -85,7 +97,30 @@ echo "
 ================================================================
 "
 ```
+### Step 6:
+Change directories into the **tasks** directory
+```
+cd /Path/To/File/roles/motd/tasks
+```
+Within the **Main.yml** file, paste the following content
+```
+---
+# tasks file for /home/kingpanda/Documents/Ansible/MOTD/roles/motd
+- name: copy motd file
+  template:
+     src: templates/96-access-warning.j2
+     dest: /etc/update-motd.d/96-access-warning
+     owner: root
+     group: root
+     mode: 0444
 
+- name: Set Executable to 96-access-warning
+  file: dest=/etc/update-motd.d/96-access-warning mode=a+x
+```
+
+
+
+To create your own ASCII MOTD Name, visit https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
 
 With the Ansible MOTD Script, you can streamline server administration, improve communication with users, and provide essential information in a concise and visually appealing manner. Enhance your server's welcome message and make your users feel more informed and engaged upon login.
 
