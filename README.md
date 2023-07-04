@@ -23,6 +23,12 @@ This Ansible MOTD (Message of the Day) script is designed to enhance server logi
 - Execute the Ansible playbook to deploy the updated MOTD configurations to your target servers.
 - Enjoy an enhanced login experience for your users with personalized and dynamic messages!
 
+## Roles Setup:
+Using Ansible Galaxy, we can setup the roles needed to meet the MOTD requirements:
+```
+sudo ansible-galaxy init /Path/To/File
+```
+
 With the Ansible MOTD Script, you can streamline server administration, improve communication with users, and provide essential information in a concise and visually appealing manner. Enhance your server's welcome message and make your users feel more informed and engaged upon login.
 
 **Note: This script is intended for use with servers running Ansible and can be easily integrated into existing Ansible playbooks or deployment workflows.**
