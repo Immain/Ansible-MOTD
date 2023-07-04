@@ -27,6 +27,11 @@ This Ansible MOTD (Message of the Day) script is designed to enhance server logi
 - Enjoy an enhanced login experience for your users with personalized and dynamic messages!
 - Or if you're a tinkerer, use the following steps below to create your own file path and MOTD:
 
+### Step 0: 
+Install Ansible Galaxy Community General
+```
+ansible-galaxy collection install community.general
+```
 ### Step 1:
 Create a directory for your Ansible Playbooks
 ```
@@ -68,7 +73,7 @@ Within the templates folder, create a jinja file called 96-access-warning.j2
 sudo nano 96-access-warning.j2
 ```
 Inside the Jinja template, paste the following:
-```
+```sh
 #!/bin/sh
 echo
 echo "
