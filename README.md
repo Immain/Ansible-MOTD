@@ -137,4 +137,4 @@ If successful, you should be able to log out and log back in to see your new MOT
 
 With the Ansible MOTD Script, you can streamline server administration, improve communication with users, and provide essential information in a concise and visually appealing manner. Enhance your server's welcome message and make your users feel more informed and engaged upon login.
 
-**Note: This script is intended for use with servers running Ansible and can be easily integrated into existing Ansible playbooks or deployment workflows.**
+📌 **Note: This script is intended for use with servers running Ansible and can be easily integrated into existing Ansible playbooks or deployment workflows.**
