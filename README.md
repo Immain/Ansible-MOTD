@@ -11,10 +11,12 @@ This Ansible MOTD (Message of the Day) script is designed to enhance server logi
 - Version Control: By leveraging Ansible, the script ensures consistent deployment and version control across multiple servers, making it convenient for managing MOTD configurations in large-scale environments.
 
 
-## Clone the Ansible MOTD Script repository.
-Customize the MOTD message template and variables to fit your requirements.
-Execute the Ansible playbook to deploy the updated MOTD configurations to your target servers.
-Enjoy an enhanced login experience for your users with personalized and dynamic messages!
+## Getting Started:
+- Clone the Ansible MOTD Script repository.
+- Customize the MOTD message template and variables to fit your requirements.
+- Execute the Ansible playbook to deploy the updated MOTD configurations to your target servers.
+- Enjoy an enhanced login experience for your users with personalized and dynamic messages!
+
 With the Ansible MOTD Script, you can streamline server administration, improve communication with users, and provide essential information in a concise and visually appealing manner. Enhance your server's welcome message and make your users feel more informed and engaged upon login.
 
 **Note: This script is intended for use with servers running Ansible and can be easily integrated into existing Ansible playbooks or deployment workflows.**
