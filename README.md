@@ -7,6 +7,11 @@ This Ansible MOTD (Message of the Day) script is designed to enhance server logi
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
 </div>
+<div align="center">
+  <p>
+    July 2023 
+  </p>
+</div>
 
 ## ✅ Key Features:
 
