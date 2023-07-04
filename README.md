@@ -2,15 +2,11 @@
 Enhance server logins with a customizable Ansible MOTD script. Admins easily manage dynamic welcome messages, sharing server status, maintenance notices, updates, and more.
 
 This Ansible MOTD (Message of the Day) script is designed to enhance server login experiences by providing a customizable and dynamic welcome message for users. It allows system administrators to easily configure and manage the content displayed to users upon login, providing valuable information such as server status, maintenance notices, important updates, or any other relevant details.
-<div>
+<h1 align="center">
   <img src="https://img.shields.io/badge/Ansible-000000?style=for-the-badge&logo=ansible&logoColor=white" />
-</div>
-<div>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</div>
-<div>
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
-</div>
+</h1>
 
 ## ✅ Key Features:
 
