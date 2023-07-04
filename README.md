@@ -9,7 +9,7 @@ This Ansible MOTD (Message of the Day) script is designed to enhance server logi
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </div>
 
-## Key Features:
+## ✅ Key Features:
 
 - Dynamic Message: The script enables the generation of dynamic messages by incorporating various system-related variables, including hostname, IP address, current date and time, system load, and more.
 - Customization: Administrators can easily customize the MOTD content according to their specific needs and preferences by modifying the script's variables and templates.
@@ -17,7 +17,7 @@ This Ansible MOTD (Message of the Day) script is designed to enhance server logi
 - Version Control: By leveraging Ansible, the script ensures consistent deployment and version control across multiple servers, making it convenient for managing MOTD configurations in large-scale environments.
 
 
-## Getting Started:
+## 📦 Getting Started:
 - Clone the Ansible MOTD Script repository.
 - Customize the MOTD message template and variables to fit your requirements.
 - Execute the Ansible playbook to deploy the updated MOTD configurations to your target servers.
