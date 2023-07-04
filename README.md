@@ -106,7 +106,7 @@ To create your own ASCII MOTD Name, visit https://patorjk.com/software/taag/#p=d
 ### Step 6:
 Change directories into the **tasks** directory
 ```
-cd /Path/To/File/roles/MOTD/tasks
+cd /Path/To/File/roles/motd/tasks
 ```
 Within the **Main.yml** file, paste the following content
 ```
