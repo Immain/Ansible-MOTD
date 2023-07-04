@@ -17,8 +17,6 @@ This Ansible MOTD (Message of the Day) script is designed to enhance server logi
 
 - Dynamic Message: The script enables the generation of dynamic messages by incorporating various system-related variables, including hostname, IP address, current date and time, system load, and more.
 - Customization: Administrators can easily customize the MOTD content according to their specific needs and preferences by modifying the script's variables and templates.
-- Maintenance Mode: During system maintenance or planned downtime, administrators can activate a maintenance mode to display specific messages to users, notifying them about the ongoing work and expected downtime.
-- Version Control: By leveraging Ansible, the script ensures consistent deployment and version control across multiple servers, making it convenient for managing MOTD configurations in large-scale environments.
 
 
 ## 📦 Getting Started:
