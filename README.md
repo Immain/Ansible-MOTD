@@ -25,7 +25,7 @@ This Ansible MOTD (Message of the Day) script is designed to enhance server logi
 - Customize the MOTD message template and variables to fit your requirements.
 - Execute the Ansible playbook to deploy the updated MOTD configurations to your target servers.
 - Enjoy an enhanced login experience for your users with personalized and dynamic messages!
-- Or if you're a tinkerer, use the following to steps to create your own file path and MOTD
+- Or if you're a tinkerer, use the following steps below to create your own file path and MOTD:
 
 ### Step 1:
 Create a directory for your Ansible Playbooks
