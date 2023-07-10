@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - /home/kingpanda/Documents/Ansible/MOTD/roles/motd
+    - /home/user/Documents/Ansible/MOTD/roles/motd
