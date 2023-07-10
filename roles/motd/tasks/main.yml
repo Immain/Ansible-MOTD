@@ -1,5 +1,5 @@
 ---
-# tasks file for /home/kingpanda/Documents/Ansible/MOTD/roles/motd
+# tasks file for /home/user/Documents/Ansible/MOTD/roles/motd
 - name: copy motd file
   template:
      src: templates/96-access-warning.j2
